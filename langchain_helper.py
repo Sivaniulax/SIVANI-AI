@@ -5,7 +5,7 @@ from langchain.chains import SequentialChain
 from secret_key import openapi_key
 from langchain import llms
 
-key = "AIzaSyCe6WsxepI0GejLj9fuqzjKG5-PRDSzoWg"
+key = "includeurkeyhere"
 llm = GooglePalm(google_api_key=key, temperature=0.7)
 
 
